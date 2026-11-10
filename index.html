@@ -1,0 +1,348 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"></head><body>
+<title>Portofolio Hanna Pauline</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=DM+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+
+<div class="wrap">
+
+  <header class="top">
+    <span class="mark">Portofolio Hanna Pauline Haryono</span>
+    <nav aria-label="Navigasi halaman">
+      <a href="#proyek">Proyek</a>
+      <a href="#skill">Keahlian</a>
+      <a href="#tentang">Tentang</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+  </header>
+
+  <section class="hero" aria-labelledby="judul">
+    <div>
+      <p class="label">Hanna Pauline Haryono &middot; Mahasiswa Informatika</p>
+      <h1 id="judul">Portofolio Pengembangan Web dan Aplikasi</h1>
+      <p class="lead">Saya mahasiswa Informatika semester 5 yang sedang mencari kesempatan magang di bidang pengembangan web. Portofolio ini memuat proyek yang saya kerjakan selama perkuliahan dan kepanitiaan, mulai dari sistem informasi gereja dan situs acara mahasiswa hingga aplikasi Android dan gim.</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="#proyek">Lihat proyek</a>
+        <a class="btn" href="https://github.com/carameljc" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn" href="#kontak">Hubungi saya</a>
+      </div>
+    </div>
+    <dl class="facts">
+      <div><dt>Status</dt><dd><span class="dot" aria-hidden="true"></span>Terbuka untuk magang</dd></div>
+      <div><dt>Fokus</dt><dd>Web front-end</dd></div>
+      <div><dt>Stack</dt><dd>HTML, CSS, JavaScript, React</dd></div>
+      <div><dt>Proyek</dt><dd>4 proyek, 2 dengan link live</dd></div>
+    </dl>
+  </section>
+
+  <section id="proyek" aria-labelledby="h-proyek">
+    <div class="section-head">
+      <h2 id="h-proyek">Proyek</h2>
+      <span class="label">2024 - Present</span>
+    </div>
+
+    <!-- 1. Jelajah Seoul -->
+    <article class="project">
+      <div class="meta">
+        <div class="row-top">
+          <span class="status ok">Selesai</span>
+          <span class="label">Introduction to Internet Technology</span>
+        </div>
+        <h3>Jelajah Seoul</h3>
+        <p class="desc">Game simulasi kehidupan berbasis React yang dikembangkan sebagai proyek tim untuk UAS IF231. Pemain menjelajahi lokasi di Seoul dan memilih aktivitas untuk menjaga rasa lapar, energi, kebersihan, dan kebahagiaan karakter.</p>
+        <dl class="detail">
+          <div><dt>Kontribusi</dt><dd>Saya mengembangkan logika aktivitas, termasuk syarat untuk melakukan aktivitas dan dampaknya terhadap statistik karakter, serta sistem waktu dalam game.</dd></div>
+          <div><dt>Mekanik</dt><dd>Eksplorasi lima area, pengelolaan inventaris, dan aktivitas seperti memasak di rumah atau berfoto di Hongdae.</dd></div>
+        </dl>
+        <ul class="tags"><li>React</li><li>JavaScript</li><li>HTML</li><li>CSS</li></ul>
+        <div class="links">
+          <a class="btn small primary" href="https://jelajah-seoul-ujdx-git-main-regine-gabrielles-projects.vercel.app/" target="_blank" rel="noopener">Mainkan Jelajah Seoul</a>
+        </div>
+      </div>
+      <div class="visuals">
+        <figure class="project-screenshot">
+          <a class="frame" href="assets/images/seoul-peta.webp" target="_blank" rel="noopener">
+            <img src="assets/images/seoul-peta.webp" alt="Peta Jelajah Seoul dengan indikator waktu, statistik karakter, dan inventaris" width="1749" height="1518" loading="lazy">
+          </a>
+          <figcaption class="cap">Peta permainan dengan waktu, statistik, dan inventaris</figcaption>
+        </figure>
+        <div class="duo">
+          <figure class="project-screenshot">
+            <a class="frame" href="assets/images/seoul-rumah.webp" target="_blank" rel="noopener">
+              <img src="assets/images/seoul-rumah.webp" alt="Tampilan area rumah dengan kamar, ruang kerja, dan dapur" width="1766" height="1485" loading="lazy">
+            </a>
+            <figcaption class="cap">Area rumah untuk aktivitas harian</figcaption>
+          </figure>
+          <figure class="project-screenshot">
+            <a class="frame" href="assets/images/seoul-hongdae.webp" target="_blank" rel="noopener">
+              <img src="assets/images/seoul-hongdae.webp" alt="Area Hongdae dengan toko, karaoke, dan kios makanan" width="1824" height="1498" loading="lazy">
+            </a>
+            <figcaption class="cap">Eksplorasi area Hongdae</figcaption>
+          </figure>
+        </div>
+      </div>
+    </article>
+
+    <!-- 2. Website gereja -->
+    <article class="project">
+      <div class="meta">
+        <div class="row-top">
+          <span class="status ok">Selesai</span>
+          <span class="label">Advanced Web Programming</span>
+        </div>
+        <h3>Website GPdI Bethlehem Kelapa Gading</h3>
+        <p class="desc">Sistem informasi gereja yang dikembangkan sebagai proyek tim untuk mata kuliah Advanced Web Programming. Jemaat dapat melihat jadwal ibadah, mengikuti kegiatan, dan memesan merchandise. Admin dapat mengelola konten, stok, dan transaksi.</p>
+        <dl class="detail">
+          <div><dt>Kontribusi</dt><dd>Saya mengerjakan basis data, fitur profil jemaat, tiga kolom pada formulir pendaftaran, dan fitur CRUD transaksi merchandise.</dd></div>
+          <div><dt>Status demo</dt><dd>Demo online sudah tidak tersedia. Galeri menampilkan hasil yang dijalankan secara lokal.</dd></div>
+        </dl>
+        <ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Node.js</li><li>Express</li><li>MySQL</li></ul>
+        <div class="links">
+          <a class="btn small primary" href="https://github.com/carameljc/WEBPROG" target="_blank" rel="noopener">Lihat kode tim di GitHub</a>
+        </div>
+      </div>
+      <div class="visuals">
+        <figure class="project-screenshot">
+          <a class="frame" href="assets/images/bethlehem-beranda.png" target="_blank" rel="noopener">
+            <img src="assets/images/bethlehem-beranda.png" alt="Beranda website GPdI Bethlehem dengan foto gereja dan menu navigasi" width="1920" height="1008" loading="lazy">
+          </a>
+          <figcaption class="cap">Beranda website gereja</figcaption>
+        </figure>
+        <div class="duo">
+          <figure class="project-screenshot">
+            <a class="frame" href="assets/images/bethlehem-checkout.png" target="_blank" rel="noopener">
+              <img src="assets/images/bethlehem-checkout.png" alt="Formulir konfirmasi pesanan merchandise dengan pilihan pengiriman" width="1920" height="1008" loading="lazy">
+            </a>
+            <figcaption class="cap">Checkout merchandise untuk jemaat</figcaption>
+          </figure>
+          <figure class="project-screenshot">
+            <a class="frame" href="assets/images/bethlehem-inventaris.png" target="_blank" rel="noopener">
+              <img src="assets/images/bethlehem-inventaris.png" alt="Dasbor admin untuk mengelola produk, stok masuk, dan laporan penjualan" width="1920" height="1008" loading="lazy">
+            </a>
+            <figcaption class="cap">Manajemen inventaris dan penjualan untuk admin</figcaption>
+          </figure>
+        </div>
+      </div>
+    </article>
+
+    <!-- 3. Where2Go -->
+    <article class="project">
+      <div class="meta">
+        <div class="row-top">
+          <span class="status wip">Dalam pengerjaan</span>
+          <span class="label">Mobile Application Programming</span>
+        </div>
+        <h3>Where2Go</h3>
+        <p class="desc">Proyek tim untuk membuat aplikasi Android yang membantu pengguna menemukan tempat untuk belajar, nongkrong, atau makan sesuai suasana, fasilitas, dan anggaran.</p>
+        <dl class="detail">
+          <div><dt>Kontribusi</dt><dd>Saya mengerjakan layar Jelajahi, pencarian dan filter, kartu tempat, komponen antarmuka bersama, serta tema aplikasi.</dd></div>
+          <div><dt>Progres</dt><dd>Build saat ini mencakup alur eksplorasi, detail tempat, check-in, dan peringkat komunitas.</dd></div>
+          <div><dt>Berikutnya</dt><dd>Integrasi peta, pengelolaan profil, dan penyimpanan check-in.</dd></div>
+        </dl>
+        <ul class="tags"><li>Android</li><li>Kotlin</li><li>Jetpack Compose</li></ul>
+        <div class="links">
+          <a class="btn small primary" href="assets/downloads/where2go-app-debug.apk" download>Unduh APK debug (Android)</a>
+        </div>
+        <p class="cap cap-left">23,5 MB. Unduh dan instal di perangkat Android atau emulator untuk mencoba build pengembangan.</p>
+      </div>
+      <div class="visuals">
+        <div class="trio where2go-mockups">
+          <figure class="project-screenshot">
+            <a class="frame" href="assets/images/where2go-explore.png" target="_blank" rel="noopener">
+              <img src="assets/images/where2go-explore.png" alt="Mockup layar Jelajahi dengan pencarian, filter, dan kartu tempat" loading="lazy">
+            </a>
+            <figcaption class="cap">Mockup Jelajahi</figcaption>
+          </figure>
+          <figure class="project-screenshot">
+            <a class="frame" href="assets/images/where2go-check-in.png" target="_blank" rel="noopener">
+              <img src="assets/images/where2go-check-in.png" alt="Mockup layar Check-in dengan pilihan suasana, fasilitas, aktivitas, dan harga" loading="lazy">
+            </a>
+            <figcaption class="cap">Mockup Check-in</figcaption>
+          </figure>
+          <figure class="project-screenshot">
+            <a class="frame" href="assets/images/where2go-profil.png" target="_blank" rel="noopener">
+              <img src="assets/images/where2go-profil.png" alt="Mockup layar Profil dengan progres XP, lencana, dan riwayat check-in" loading="lazy">
+            </a>
+            <figcaption class="cap">Mockup Profil</figcaption>
+          </figure>
+        </div>
+      </div>
+    </article>
+
+    <!-- 4. Boink' Boink! -->
+    <article class="project">
+      <div class="meta">
+        <div class="row-top">
+          <span class="status ok">Build tersedia</span>
+          <span class="label">Game Development</span>
+        </div>
+        <h3>Boink' Boink!</h3>
+        <p class="desc">Game platformer 3D yang dibuat dengan Unity untuk UTS mata kuliah Game Development. Galeri menampilkan menu utama dan tiga level permainan.</p>
+        <ul class="tags"><li>Unity</li><li>C#</li><li>Windows</li></ul>
+        <div class="links">
+          <a class="btn small primary" href="assets/downloads/UTS_GAMEDEV.exe" download>Unduh UTS_GAMEDEV.exe</a>
+        </div>
+        <p class="cap cap-left">Jalankan EXE dari folder build Unity lengkap di Windows. File ini membutuhkan UnityPlayer.dll dan folder UTS_GAMEDEV_Data.</p>
+      </div>
+      <div class="visuals">
+        <figure class="project-screenshot">
+          <a class="frame" href="assets/images/boink-menu.png" target="_blank" rel="noopener">
+            <img src="assets/images/boink-menu.png" alt="Menu utama Boink' Boink!" width="1920" height="1080" loading="lazy">
+          </a>
+          <figcaption class="cap">Menu utama</figcaption>
+        </figure>
+        <div class="trio">
+          <figure class="project-screenshot">
+            <a class="frame" href="assets/images/boink-level-1.png" target="_blank" rel="noopener">
+              <img src="assets/images/boink-level-1.png" alt="Level 1 dengan platform bertingkat dan portal biru" width="1920" height="1080" loading="lazy">
+            </a>
+            <figcaption class="cap">Level 1</figcaption>
+          </figure>
+          <figure class="project-screenshot">
+            <a class="frame" href="assets/images/boink-level-2.png" target="_blank" rel="noopener">
+              <img src="assets/images/boink-level-2.png" alt="Level 2 dengan jalur platform melayang" width="1920" height="1080" loading="lazy">
+            </a>
+            <figcaption class="cap">Level 2</figcaption>
+          </figure>
+          <figure class="project-screenshot">
+            <a class="frame" href="assets/images/boink-level-3.png" target="_blank" rel="noopener">
+              <img src="assets/images/boink-level-3.png" alt="Level 3 dengan area benteng" width="1920" height="1080" loading="lazy">
+            </a>
+            <figcaption class="cap">Level 3</figcaption>
+          </figure>
+        </div>
+      </div>
+    </article>
+
+    <!-- Starlight UMN 2026 -->
+    <article class="project">
+      <div class="meta">
+        <div class="row-top">
+          <span class="label">Proyek kepanitiaan</span>
+        </div>
+        <h3>Starlight UMN 2026</h3>
+        <p class="desc">Website acara Starlight UMN 2026, kegiatan minat dan bakat mahasiswa di bawah naungan BEM UMN. Pengunjung bisa melihat rangkaian panggung acara dan mengenal divisi kepanitiaan.</p>
+        <dl class="detail">
+          <div><dt>Kontribusi</dt><dd>Saya ikut mengembangkan website bersama tim selama menjadi panitia Starlight UMN 2026.</dd></div>
+        </dl>
+        <div class="links">
+          <a class="btn small primary" href="https://www.starlightumn2026.com/" target="_blank" rel="noopener">Buka website Starlight</a>
+        </div>
+      </div>
+      <div class="visuals">
+        <figure class="project-screenshot">
+          <a class="frame" href="assets/images/starlight-stages.png" target="_blank" rel="noopener">
+            <img src="assets/images/starlight-stages.png" alt="Halaman Stages dengan pilihan tiga panggung Starlight" loading="lazy">
+          </a>
+          <figcaption class="cap">Stages &middot; Rangkaian panggung acara</figcaption>
+        </figure>
+        <figure class="project-screenshot">
+          <a class="frame" href="assets/images/starlight-division.png" target="_blank" rel="noopener">
+            <img src="assets/images/starlight-division.png" alt="Halaman Division dengan galeri kartu divisi kepanitiaan" loading="lazy">
+          </a>
+          <figcaption class="cap">Division &middot; Galeri divisi kepanitiaan</figcaption>
+        </figure>
+      </div>
+    </article>
+  </section>
+
+  <section id="skill" aria-labelledby="h-skill">
+    <div class="section-head">
+      <h2 id="h-skill">Keahlian</h2>
+      <span class="label">Teknologi dan perangkat pengembangan</span>
+    </div>
+    <div class="skills">
+      <div class="skill-group">
+        <h3>Web</h3>
+        <ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>React</li><li>Tailwind</li></ul>
+      </div>
+      <div class="skill-group">
+        <h3>Back-end</h3>
+        <ul class="tags"><li>PHP</li><li>MySQL</li><li>Laravel</li></ul>
+      </div>
+      <div class="skill-group">
+        <h3>Mobile dan game</h3>
+        <ul class="tags"><li>Flutter</li><li>Unity</li><li>C#</li></ul>
+      </div>
+      <div class="skill-group">
+        <h3>Alat kerja</h3>
+        <ul class="tags"><li>Git</li><li>GitHub</li><li>Figma</li><li>Vercel</li></ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="tentang" aria-labelledby="h-tentang">
+    <div class="section-head">
+      <h2 id="h-tentang">Tentang saya</h2>
+    </div>
+    <div class="about">
+      <p>Saya mahasiswa Informatika semester 5. Saya suka mengubah desain menjadi halaman yang bisa dipakai, dan memastikan tampilannya tetap rapi di layar besar maupun ponsel.</p>
+      <p>Lewat proyek pengabdian masyarakat, saya belajar bahwa website yang baik dimulai dari memahami apa yang dibutuhkan penggunanya. Saya mencari magang untuk belajar bekerja dengan klien dan tim dalam proyek website sungguhan.</p>
+    </div>
+  </section>
+
+  <section id="kontak" aria-labelledby="h-kontak">
+    <div class="section-head">
+      <h2 id="h-kontak">Kontak</h2>
+      <span class="label">Tersedia untuk magang</span>
+    </div>
+    <div class="about">
+      <p>Silakan hubungi saya lewat email atau LinkedIn. CV lengkap bisa saya kirim kalau diminta.</p>
+      <ul class="contact-list">
+        <li>
+          <span class="label">Email</span>
+          <span class="val" id="email-val">hannapauline16@gmail.com</span>
+          <button class="btn small" type="button" id="copy-email">Salin</button>
+        </li>
+        <li>
+          <span class="label">GitHub</span>
+          <span class="val"><a href="https://github.com/carameljc" target="_blank" rel="noopener">github.com/carameljc</a></span>
+          <span></span>
+        </li>
+        <li>
+          <span class="label">LinkedIn</span>
+          <span class="val"><a href="https://www.linkedin.com/in/username" target="_blank" rel="noopener">linkedin.com/in/username</a></span>
+          <span></span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <span>Hanna Pauline Haryono &middot; Portofolio 2026</span>
+  </footer>
+</div>
+
+<script>
+(function () {
+  var btn = document.getElementById('copy-email');
+  var val = document.getElementById('email-val');
+  if (!btn || !val) return;
+  function fallback() {
+    try {
+      var r = document.createRange();
+      r.selectNodeContents(val);
+      var s = window.getSelection();
+      s.removeAllRanges();
+      s.addRange(r);
+    } catch (e) {}
+    btn.textContent = 'Terpilih, tekan salin';
+    setTimeout(function () { btn.textContent = 'Salin'; }, 2000);
+  }
+  btn.addEventListener('click', function () {
+    var text = val.textContent.trim();
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(function () {
+        btn.textContent = 'Tersalin';
+        setTimeout(function () { btn.textContent = 'Salin'; }, 2000);
+      }, fallback);
+    } else {
+      fallback();
+    }
+  });
+})();
+</script>
+
+</body></html>
